@@ -1,38 +1,41 @@
 ---
 permalink: /about/
-title: "About"
-excerpt: "About Me"
-search: true
-last_modified_at: 2020-01-23T13:00:00+09:00
-toc: true
 --- 
 
 ## Profile
-<center><img src="/assets/img/me.jpg" width="30%" height="30%" style="
-border: 1px solid #cab6de;
-border-radius: 50%;
-padding: 5px;
--moz-border-radius: 50%;
--khtml-border-radius: 50%;
--webkit-border-radius: 50%;
-"></center>
+<center>
+    <img 
+        src="/assets/images/wonnx.jpg" 
+        width="30%" height="30%" 
+        style=
+        "
+            border: 1px solid #cab6de;
+            border-radius: 50%;
+            padding: 5px;
+            -moz-border-radius: 50%;
+            -khtml-border-radius: 50%;
+            -webkit-border-radius: 50%;
+        ">
+</center>
 
 
-* NAME : JiWon, Hyeon
+* NAME : Jongwon, Kim
 * MAJOR : Computer Science Engineering
 
 ## Career & Activities
- - Undergraduate resercher at Embedded System LAB (2018.06 ~ 2020.12)
- - LikeLion 7th @SCH (2019.03 ~ 2019.12)
+ - Hanyang University, Computer Software B.S. (2017.03 ~ 2023.02 expected)
+ - Imformation olympiad academy, Algorithm Instructor (2018.09 ~ 2018.12)
+ - One Day One Communication (ODOC), Internship (2022.06 ~ 2022.08)
+ - Voronoi Research BetaCavityWeb, Researcher Internship (2022.09 ~ )
 
 ## Current Interest
- * Bigdata
- * Android Applicaiton 
+ * JSP-Servlet
+ * IOS Applicaiton 
  * Web Development
- * Internet of Things
+ * React & React Native
 
 ## Contact
- * Email : zlone1208@gmail.com
+ * Email : labora7@naver.com
  * Git : [https://github.com/Hyeonjiwon](https://github.com/Hyeonjiwon)
  * Blog : [https://hyeonjiwon.github.io/](https://hyeonjiwon.github.io/)
 

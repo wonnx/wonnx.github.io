@@ -1,6 +1,6 @@
 # main links
 main:
   - title: "About"
-    url: https://wonnx.github.io/about/
+    url: "/about/"
   - title: "Category"
-    url: https://wonnx.github.io/category/
+    url: "/category/"
