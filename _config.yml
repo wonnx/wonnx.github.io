@@ -18,9 +18,9 @@ minimal_mistakes_skin    : "custom2"
 locale                   : "ko-KR"
 title                    : "Jongwon's devlog"
 title_separator          : "-"
-subtitle                 : # """
+subtitle                 : # ""
 name                     : "Jongwon Kim"
-description              : "An amazing website."
+description              : # ""
 url                      : "https://wonnx.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/wonnx/wonnx.github.io"
@@ -30,9 +30,9 @@ masthead_title           : # overrides the website title displayed in the masthe
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : "disqus"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "wonnx-github-io"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -94,9 +94,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google-gtag"
   google:
-    tracking_id          :
+    tracking_id          : "G-2MZEJSYHBF"
     anonymize_ip         : # true, false (default)
 
 
@@ -104,7 +104,7 @@ analytics:
 author:
   name             : "Kim Jongwon"
   avatar           : "/assets/images/wonnx.jpg"
-  bio              : #"I am an **amazing** person."
+  bio              : "하나하나 차근차근 공부"
   location         : "Seoul, Republic of Korea"
   email            :
   links:
@@ -285,6 +285,14 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
+  
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true

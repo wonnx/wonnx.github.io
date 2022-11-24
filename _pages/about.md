@@ -1,5 +1,9 @@
 ---
 permalink: /about/
+title: "About"
+toc: true
+toc_sticky: true
+toc_label: "MYSELF"
 --- 
 
 ## Profile
@@ -36,6 +40,6 @@ permalink: /about/
 
 ## Contact
  * Email : labora7@naver.com
- * Git : [https://github.com/Hyeonjiwon](https://github.com/Hyeonjiwon)
- * Blog : [https://hyeonjiwon.github.io/](https://hyeonjiwon.github.io/)
+ * Git : [https://github.com/wonnx](https://github.com/wonnx)
+ * Blog : [https://wonnx.github.io/](https://wonnx.github.io/)
 
