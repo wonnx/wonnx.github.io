@@ -104,7 +104,7 @@ analytics:
 author:
   name             : "Kim Jongwon"
   avatar           : "/assets/images/wonnx.jpg"
-  bio              : "하나하나 차근차근 공부"
+  bio              : "하나하나 차근차근"
   location         : "Seoul, Republic of Korea"
   email            :
   links:
@@ -284,7 +284,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false  # 글을 읽는데 걸리는 시간
+      show_date: true   # 포스트를 게시한 날짜 표시
       comments: true
       share: true
       related: true
