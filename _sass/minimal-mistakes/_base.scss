@@ -107,10 +107,11 @@ abbr[data-original-title] {
 /* blockquotes */
 
 blockquote {
-  margin: 2em 1em 2em 0;
+  margin: 1em 1em 1em 0; // 2em 1em 2em 0;
   padding-left: 1em;
   padding-right: 1em;
-  font-style: italic;
+  // font-style: italic;
+  // line-height: 2;
   border-left: 0.25em solid $primary-color;
   background-color: rgba(233, 233, 233, 0.35);
   cite {
