@@ -1,5 +1,5 @@
 ---
-title: '[database] 데이터베이스 정규화'
+title: '[database] 데이터베이스 정규화 (Nomalization)'
 categories:
     - database
 tag:
