@@ -4,16 +4,15 @@ categories:
     - network
 tag:
     - network
-    - github page
-    - github blog
-    - git
+    - HTTP & HTTPS
+    - SSL
 ---
 
 ## HTTP와 HTTPS
 <br>
 <center>
 <img 
-    src="/assets/images/posts/2022-12-03-HTTP & HTTPS/http-vs-https.svg"
+    src="/assets/images/posts/2022-11-25-HTTP & HTTPS/http-vs-https.svg"
     style="width: 70%; height: 70%;">
 </center>
 <br>
