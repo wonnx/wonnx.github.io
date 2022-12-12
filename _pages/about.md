@@ -23,8 +23,8 @@ toc_label: "MYSELF"
 </center>
 
 
-* NAME : Jongwon, Kim
-* MAJOR : Computer Science Engineering
+* Name : Jongwon, Kim
+* Major : Computer Science Engineering
 
 ## Career & Activities
  - Hanyang University, Computer Software B.S. (2017.03 ~ 2023.02 expected)
