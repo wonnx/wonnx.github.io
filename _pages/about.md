@@ -30,13 +30,15 @@ toc_label: "MYSELF"
  - Hanyang University, Computer Software B.S. (2017.03 ~ 2023.02 expected)
  - Imformation olympiad academy, Algorithm Instructor (2018.09 ~ 2018.12)
  - One Day One Communication (ODOC), Internship (2022.06 ~ 2022.08)
- - Voronoi Research BetaCavityWeb, Researcher Internship (2022.09 ~ )
+ - Voronoi Research BetaCavityWeb, Researcher Internship (2022.09 ~ 2023.02)
+ - SPACEMAP, software engineer (2023.02 ~ )
 
 ## Current Interest
  * JSP-Servlet
  * IOS Applicaiton 
  * Web Development
  * React & React Native
+ * node.js & express
 
 ## Contact
  * Email : labora7@naver.com
