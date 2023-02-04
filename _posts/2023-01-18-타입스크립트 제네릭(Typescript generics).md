@@ -31,4 +31,4 @@ function getText<string>(text: string): string {
     return text;
 }
 ```
-위 함수에서 제네릭 타입이 `string` 이 되는 이유는 `getText()` 함수를 호출할 때 제네릭 값 (함수 안에서 사용할 타입)으로 `string` 을 넘겼기 때문이다. 그리고 함수의 인자로 `"hello world"` 를 넘기게 되면 위의 함수는 입력 값의 타입이 `string` 이면서 반환 값 타입 또한 `string` 이어야 하는 함수가 된다.
+위 함수에서 제네릭 타입이 `string` 이 되는 이유는 `getText()` 함수를 호출할 때 제네릭 값 (함수 안에서 사용할 타입)으로 `string` 을 넘겼기 때문이다. 그리고 함수의 인자로 `"hello world"` 를 넘기게 되면 위의 함수는 입력 값의 타입이 `string` 이면서 반환 값 타입 또한 `string` 이어야 하는 함수가 된다. 

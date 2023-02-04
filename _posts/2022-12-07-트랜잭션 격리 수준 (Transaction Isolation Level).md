@@ -17,4 +17,3 @@ tag:
 >
 **Read Uncommitted (level 0)**  
 트랜잭션의 변경 내용이 commit이나 rollback 여부에 상관 없이 다른 트랜잭션에서 읽을 수 있음. 이 격리 수준에서는 아래와 같은 문제가 발생할 수 있다.
-1. 
