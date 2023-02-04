@@ -81,6 +81,41 @@ Request for /error received.
   path: 'error'
 }
 ```
-링크들을 틀어갔을 때 출력되는 내용은 위와 같다.
+링크들을 클릭하였을 때 출력되는 내용은 위와 같다.
 
 #### client.js 작성  
+```javascript
+const http = require("http");
+
+const options = {
+    host: "localhost",
+    port: "8081",
+    path: "/index.html"
+};
+
+const req = http.request(options, (response) => {
+    var body = "";
+    response.on('data', (data) => {
+        body += data;
+    })
+    response.on('end', () => {
+        console.log(body);
+    })
+});
+
+req.end();
+```
+위의 클라이언트 코드는 서버에 `index.html` 페이지를 요청하는 코드이다. 서버를 켜둔 상태에서 요청을 해야 response로 받은 페이지가 정상적으로 출력된다.  
+
+```text
+$ node server.js    (terminal 1 - server)
+$ node client.js    (terminal 2 - client)
+<html>
+    <head>
+        <title>Sample server</title>
+    </head>
+    <body>
+        Hello World!
+    </body>
+</html>
+```
